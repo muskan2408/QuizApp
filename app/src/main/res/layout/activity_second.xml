@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back61"
+
+    tools:context=".second">
+    <TextView
+        android:id="@+id/ques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:fontFamily="serif"
+        android:text="Q2."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/kidney"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:fontFamily="serif"
+        android:text="What was the theme of the 2018 World Earth \n                Day?"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/RGroup"
+        android:layout_marginEnd="18dp"
+        android:fontFamily="serif"
+        android:text="A) End Plastic Pollution\n\nB) Save Mother Earth from Plastic\n\nC) No to Plastic\n\nD) Plastic Pollution: A Menace\n\n"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/RGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="310dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginStart="15dp">
+
+        <RadioButton
+            android:id="@+id/Chest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:buttonTint="#000000" />
+
+        <RadioButton
+            android:id="@+id/Arm"
+            android:layout_width="wrap_content"
+            android:layout_height="56dp"
+
+            android:buttonTint="#000000" />
+
+        <RadioButton
+            android:id="@+id/Abdominal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+
+            android:buttonTint="#000000" />
+
+        <RadioButton
+            android:id="@+id/Back"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+
+
+            android:buttonTint="#000000" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:background="#4A148C"
+        android:text="Next"
+        android:textSize="18sp" />
+
+</RelativeLayout>

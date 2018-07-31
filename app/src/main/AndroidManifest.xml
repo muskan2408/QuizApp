@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.gmail.muskankataria2408.quiztime">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.AppCompat.NoActionBar">
+        <activity android:name=".MainActivity"
+            android:screenOrientation="portrait"
+            ></activity>
+        <activity android:name=".first"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".firstques"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".second"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".third"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".fourth"        android:screenOrientation="portrait"
+            />
+        <activity android:name=".fifth"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".sixth"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".seventh"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".eight"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".ninth"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".tenth"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".score"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".allanswers"         android:screenOrientation="portrait"
+            />
+        <activity android:name=".launch"        android:screenOrientation="portrait"
+            >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main2Activity"        android:screenOrientation="portrait"
+            ></activity>
+    </application>
+
+</manifest>

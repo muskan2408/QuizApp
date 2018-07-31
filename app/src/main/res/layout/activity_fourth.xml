@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back61"
+
+    tools:context=".fourth">
+    <TextView
+        android:id="@+id/ques"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="48dp"
+        android:fontFamily="serif"
+        android:text="Q4."
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="45sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/kidney"
+        android:layout_width="286dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="130dp"
+        android:fontFamily="serif"
+        android:text="When is the National Science Day celebrated \n           every year?"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="25sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="110dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="180dp"
+        android:fontFamily="serif"
+        android:text="A) 18 July\n\nB) 17 April\n\nC) 29 June\n\nD) 28 Feb"
+        android:textColor="#000000"
+        android:textSize="18sp" />
+
+    <RadioGroup
+        android:id="@+id/RGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/textView1"
+        android:layout_toStartOf="@+id/textView1">
+
+        <RadioButton
+            android:id="@+id/Chest"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:buttonTint="#000000" />
+
+        <RadioButton
+            android:id="@+id/Arm"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:buttonTint="#000000" />
+
+        <RadioButton
+            android:id="@+id/Abdominal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:buttonTint="#000000" />
+
+        <RadioButton
+            android:id="@+id/Back"
+            android:layout_width="wrap_content"
+            android:layout_height="58dp"
+
+            android:buttonTint="#000000" />
+
+
+    </RadioGroup>
+
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="137dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="63dp"
+        android:background="#4A148C"
+        android:text="next"
+        android:textSize="18sp" />
+
+</RelativeLayout>
